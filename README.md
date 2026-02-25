@@ -46,3 +46,18 @@ If you want to modify the Python code or build the `.exe` yourself:
 2. **Run as script:**
    ```cmd
    python 3dgs_batch_processor.py
+
+    Compile to Standalone .exe:
+    code Cmd
+
+    pyinstaller --noconsole --onefile --add-binary "gsbox.exe;." 3dgs_batch_processor.py
+
+    The compiled file will be located in the dist/ folder and already contains gsbox natively!
+
+🤝 Credits & Under the Hood
+
+    Usesgsbox (written in Go) for lightning-fast transformation and SPZ conversion.
+
+    Uses plyfile for safe spherical harmonics retention during the auto-cropping phase.
+
+    Built to optimize ComfyUI / Apple SHARP sequence outputs for the web.
