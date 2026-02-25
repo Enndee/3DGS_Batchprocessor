@@ -43,13 +43,13 @@ If you want to modify the Python code or build the `.exe` yourself:
 1. **Prerequisites:** 
    * Install Python 3.8+
    * Install requirements: `pip install plyfile pyinstaller`
-   * Download the latest Windows release of[gsbox](https://github.com/gotoeasy/gsbox/releases) and place `gsbox.exe` in the same directory as the script.
+   * Download the latest Windows release of [gsbox](https://github.com/gotoeasy/gsbox/releases) and place `gsbox.exe` in the same directory as the script.
 2. **Run as script:**
   
    `python 3dgs_batch_processor.py`
    
-    Compile to Standalone .exe
-    `pyinstaller --noconsole --onefile --add-binary "gsbox.exe;." 3dgs_batch_processor.py`
+    Compile to Standalone .exe:
+   `pyinstaller --noconsole --onefile --add-binary "gsbox.exe;." 3dgs_batch_processor.py`
 
     The compiled file will be located in the dist/ folder and already contains gsbox natively!
 
