@@ -1,5 +1,5 @@
 # 3DGS Batch Processor 🚀
-<img width="1156" height="1244" alt="grafik" src="https://github.com/user-attachments/assets/3f42fa8f-8a05-4382-b6c5-0802d726f6db" />
+<img width="700" height="700" alt="grafik" src="https://github.com/user-attachments/assets/3f42fa8f-8a05-4382-b6c5-0802d726f6db" />
 
 A lightweight, multi-threaded Windows GUI tool to batch-process 3D Gaussian Splatting (`.ply`) frame sequences. 
 
